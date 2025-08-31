@@ -4,10 +4,7 @@
  */
 package Ejercicio1_AnoBisiesto;
 import java.util.Scanner;
-/**
- *
- * @author ralbe
- */
+
 public class AnoBisiesto {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
