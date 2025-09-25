@@ -66,6 +66,7 @@ public class Empleado {
         this.salario = salario;
     }
     
+    @Override
     public String toString() {
         return "Empleado [ID=" + id + ", Nombre=" + nombre + ", Puesto=" + puesto + ", Salario=" + salario + "]";
     }
