@@ -49,7 +49,7 @@ public class Main {
         Profesor p3_check = uni.buscarProfesorPorId("P003");
         p3_check.listarCursos();
 
-        System.out.println("\n...Revisando Profesor P002 (Luis Martin)..");
+        System.out.println("\nRevisando Profesor P002..");
         Profesor p2_check = uni.buscarProfesorPorId("P002");
         p2_check.listarCursos();
 

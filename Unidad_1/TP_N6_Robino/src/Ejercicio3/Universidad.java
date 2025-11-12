@@ -68,7 +68,7 @@ public class Universidad {
     }
 
     public void listarProfesores() {
-        System.out.println("--- Lista de Profesores (" + this.nombre + ") ---");
+        System.out.println("Lista de Profesores (" + this.nombre + ")");
         for (Profesor p : this.profesores) {
             p.mostrarInfo();
             p.listarCursos();
@@ -77,7 +77,7 @@ public class Universidad {
     }
 
     public void listarCursos() {
-        System.out.println("--- Lista de Cursos (" + this.nombre + ") ---");
+        System.out.println("Lista de Cursos (" + this.nombre + ")");
         for (Curso c : this.cursos) {
             c.mostrarInfo();
         }
